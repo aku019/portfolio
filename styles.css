@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #34495e;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    margin-top: 28px;
+    text-align: center;
+}
+
+li {
+    line-height: 32px;
+    box-align: left;
+}
+
+.section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    text-align: right;
+    font-size: 20px;
+}
+
+.p-project
+{
+    text-align: left;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color:rgb(47, 5, 87);
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(47, 5, 87);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table thead tr {
+    background-color:rgb(47, 5, 87);
+    color: #ffffff;
+    text-align: left;
+}
+
+.header-div-1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    text-align: right;
+    font-size: 20px;
+}
+
+.header-div-2 {
+    padding: 56px 0;
+}
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 28px;
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: underline;
+    padding-right: 12px;
+}
+
+.header-heading {
+    padding: 56px 0;
+}
+
+.header-heading-main-heading {
+    margin: 4px 0;
+    font-size: 76px;
+}
+
+.header-heading-sub-heading {
+    margin-top: 0;
+    margin-left: 4px;
+    font-size: 42px;
+}
+
+.main-content {
+    padding: 0 40px;
+    margin-bottom: 80px;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.main-subheading {
+    margin-top: 48px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 0;
+    /* width: 1200px; */
+    margin: 0 auto;
+    /* width: 50%; */
+     /* padding: 10px; */
+    /* height: 300px;   */
+    /* Should be removed. Only for demonstration */ */
+    /* vertical-align:center;   */
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    margin-top: 48px;
+    margin-bottom: 0;
+    text-align: center;
+   /* 0215X width: 1200px; */
+    margin: 0 auto;
+    display: table;
+    /* vertical-align:center; */
+    clear: both;
+  }
+  
