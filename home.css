@@ -1,0 +1,153 @@
+.header {
+    height: 120px;
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.header-logo-box {
+    float: left;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header-logo-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-items-list {
+    float: right;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+a.header-items {
+    margin-left: 20px;
+    color: #202640;
+}
+
+a.header-items:hover {
+    margin-left: 20px;
+    color: #de0f66;
+}
+
+.header-items.active {
+    color: #de0f66;
+}
+
+.content-holder {
+    display: flex;
+    align-items: center;
+}
+
+.intro-main-text {
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+.intro-sub-text {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.profile_image_box {
+    margin: 4em 2em 2em 2em;
+    width: calc(100% - 4em);
+    padding-top: calc(100% - 4em);
+    background-size: cover;
+    background-image: url(..\Sdp.jpg);
+    border-radius: 50%;
+}
+
+.profile_image_box img {
+    width: 100%;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 980px) {
+    .intro-main-text {
+        font-size: 2.75em;
+    }
+
+    .intro-sub-text {
+        font-size: 1.4em;
+        margin-top: 0;
+    }
+
+    .profile_image_box {
+        width: 100%;
+        margin: 0;
+        padding-top: 100%;
+        border-radius: 4px;
+        box-shadow: -8px -8px 0 0 #202640;
+    }
+}
+
+.product-box {
+    display: block;
+    padding: 30px 30px 0 40px;
+    margin-bottom: 2em;
+    background-color: #202640;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.product-box:hover {
+    box-shadow: 2px 2px 10px 2px #ccc;
+    transform: scale(1.05);
+}
+
+.product-tag {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 2;
+}
+
+.product-header {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    line-height: 2;
+}
+
+.product_image {
+    width: 100%;
+    padding-top: calc(1650/2700 * 100%);
+    background-size: cover;
+}
+
+.view-all-text {
+    text-align: right;
+}
+
+.footer {
+    margin-top: 2em;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+}
+
+.connect-list {
+    margin-top: 20px;
+}
+
+.connect-list i {
+    font-size: 30px;
+}
+
+.connect-list a {
+    color: #555;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 980px) {
+    .connect-list a {
+        margin: 0 20px;
+    }
+}
